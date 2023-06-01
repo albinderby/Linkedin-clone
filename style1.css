@@ -1,0 +1,201 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', 'Fira Sans', Ubuntu, Oxygen, 'Oxygen Sans', Cantarell, 'Droid Sans', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Lucida Grande', Helvetica, Arial, sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+.home {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.home .header {
+    display: flex;
+    /* padding-top: 5px; */
+    align-items: center;
+}
+
+.home .header .navigation {
+    display: flex;
+    padding-top: 40px;
+}
+
+.home .header .navigation .icon ul {
+    border-right: 1px solid #ccc;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 10px;
+    list-style: none;
+
+}
+
+.home .header .navigation {
+    flex-basis: 50%;
+}
+
+.home .header .logo {
+    padding-left: 100px;
+    padding-top: 30px;
+    flex-basis: 50%;
+}
+
+/* home-content layout */
+.home .home-content {
+    display: flex;
+}
+
+.home .home-content .left-section {
+    flex-basis: 50%;
+    padding: 10px 80px;
+}
+
+.home .home-content .right-section {
+    flex-basis: 50%;
+
+}
+
+.home .home-content .left-section form {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+/* style!starting*/
+.home .header .logo img {
+    width: 140px;
+    margin: -10px;
+}
+
+.home .header .navigation .icon a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    color: #ccc;
+    margin-right: 20px;
+
+}
+
+.home button {
+    background-color: transparent;
+    padding: 12px 22px;
+    border-radius: 25px;
+    font-weight: 500;
+}
+
+.home .header .navigation .button :first-child {
+    border: none;
+    margin: 0 10px;
+
+
+}
+
+.home .header .navigation .button :last-child {
+    color: #0a66c2;
+    border: 1px solid #0a66c2;
+}
+
+.home .header .navigation .button :last-child:hover {
+    background-color: rgba(10, 102, 194, 0.06);
+
+}
+
+
+.home-content .left-section p {
+    font-size: 56px;
+    font-weight: 30;
+    color: #915848;
+    margin: 50px 0 30px 0;
+
+}
+
+.home .home-content .left-section form input {
+    margin-top: 10px;
+    margin-bottom: 23px;
+    width: 25rem;
+    height: 3rem;
+    border-radius: 4px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+.home .home-content .left-section form input:hover {
+    background-color: #fcfcfc;
+}
+
+.home .home-content .left-section form button {
+    width: 25rem;
+    height: 3rem;
+    background-color: #0a66c2;
+    color: #fff;
+    border: none;
+    border-radius: 25px;
+    margin-bottom: 30px;
+}
+
+.home .home-content .left-section form button:hover {
+    background-color: #104a83;
+}
+
+.home .home-content .left-section form {
+    font-weight: 500;
+    border-bottom: 1px solid #969393;
+}
+
+.home .home-content .right-section img {
+    width: 100%;
+    height: 100%;
+}
+
+.home .home-content .right-section {
+    padding-top: 9%;
+}
+.Google-btn img{
+    
+    margin-left: -4px;
+    width: 16px;
+  
+}
+.Google-btn {
+    align-items: center;
+    width: 25rem;
+    height: 2.5rem;
+    color: #969393;
+    border: 1px solid #c9def3;
+    border-radius: 25px;
+    margin-top: 30px;
+}
+
+.Google-btn:hover {
+    background-color: rgba(10, 102, 194, 0.04);
+}
+
+.Linkdein-btn {
+    width: 25rem;
+    height: 3rem;
+    font-weight: 900;
+    font-size: medium;
+    color: #3b3939;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    /* background-color: transparent; */
+    /* border: none; */
+    border-radius: 25px;
+    margin: 30px 0 30px;
+}
+
+.Linkdein-btn:hover {
+    background-color: rgba(10, 102, 194, 0.04);
+    color: #111111;
+}
+
+#showall-btn {
+    color: #0a66c2;
+    border-color: #0a66c2;
+}
+
+button:hover {
+     background-color: rgba(10, 102, 194, 0.04);
+    
+}
